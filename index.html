@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kodluyoruz | Saat ve Karşılama</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="app">
+    
+    <div class="login-screen" id="login-screen">
+      <h1 class="title">👋 Hoş Geldin!</h1>
+      <p class="desc">Lütfen adını girerek devam et:</p>
+      <input type="text" id="username" placeholder="Adınızı yazın..." autocomplete="off">
+      <button id="start-btn">Giriş Yap</button>
+    </div>
+
+    
+    <div class="main-screen hidden" id="main-screen">
+      <div class="clock-card">
+        <h2 id="welcome"></h2>
+        <div class="clock" id="clock"></div>
+        <p class="day" id="day"></p>
+      </div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
