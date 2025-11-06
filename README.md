@@ -25,11 +25,7 @@ Kullanıcıdan isim alınır, kişiye özel bir **hoş geldin mesajı** görünt
 
 ---
 
-## 🖼️ Ekran Görüntüsü
 
-![Örnek Görsel](https://picsum.photos/800/400)
-
----
 
 ## ⚙️ Kurulum
 
